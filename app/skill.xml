@@ -3,7 +3,7 @@
     <Label text="My Skills" class="text-xl mb-4" />
     <ListView id="myListView" itemTap="onItemTap">
       <ListView.itemTemplate>
-        <Label class="mx-20 my-20 text-xl" id="listItemLabel" />
+        <Label class="mx-10 my-10 text-xxl" id="listItemLabel" />
       </ListView.itemTemplate>
     </ListView>
   </StackLayout>
