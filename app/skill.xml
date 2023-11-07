@@ -1,5 +1,7 @@
 <Page loaded="pageLoaded">
-  <StackLayout class="p-10">
+
+
+  <StackLayout class="p-10" backgroundColor="#E0ACAC">
     <Label text="My Skills" class="text-xl mb-4" />
     <ListView id="myListView" itemTap="onItemTap">
       <ListView.itemTemplate>
