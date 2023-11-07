@@ -1,6 +1,6 @@
 <Page loaded="pageLoaded">
 <StackLayout>
-<Label Text= "My Skills">
+<Label Text= "My Skills"/>
 <ListView id="myListView" itemTap="onItemTap">
   <ListView.itemTemplate>
     <Label id="listItemLabel" />
