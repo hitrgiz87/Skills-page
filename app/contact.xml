@@ -1,0 +1,25 @@
+<Page xmlns="http://schemas.nativescript.org/tns.xsd" navigatingTo="onNavigatingTo">
+    <ActionBar title="Contact Me" icon="" />
+
+    <ScrollView>
+        <StackLayout class="p-4" backgroundColor="#E0ACAC">
+            <Image src="~/Images/tacocat.jpg" stretch="aspectFill" />
+            <Label class="ml-4 text-black" text="Enter your First Name:"/>
+            <TextField id="firstName" class="text-xl border border-black rounded"/>
+
+            <Label class="ml-4 mt-5 text-black" text="Enter your Last Name:"/>
+            <TextField id="lastName" class="text-xl border border-black rounded"/>
+
+            <Label class="ml-4 mt-5 text-black" text="Enter your Email"/>
+            <TextField id="email" class="text-xl border border-black rounded" keyboardType="email"/>
+
+            <Label class="text-xl text-center" id="resultLabel" />
+
+            <Button onTap="Submit" text="Send me your info" class="font-bold py-2 px-4 rounded-full mt-10 text-white bg-black" />
+
+            <Button onTap="goBack" text="Cancel" class="font-bold py-2 px-4 rounded-full mb-5 text-white bg-black" />
+
+        </StackLayout>
+    </ScrollView>
+</Page>
+

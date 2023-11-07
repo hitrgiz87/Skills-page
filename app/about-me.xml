@@ -1,0 +1,17 @@
+<Page xmlns="http://schemas.nativescript.org/tns.xsd" navigatingTo="onNavigatingTo">
+    <scrollView>
+        <GridLayout backgroundColor="#E0ACAC" rows="auto, *, auto">
+            <!-- Top row for the circular profile image -->
+            <StackLayout row="0" verticalAlignment="top" horizontalAlignment="left" paddingTop="10" paddingLeft="10">
+                <StackLayout class="w-20.5 h-20.5 rounded-full overflow-hidden">
+                    <Image src="~/Images/garrett_compress.png" stretch="aspectFill" />
+                </StackLayout>
+            </StackLayout>
+            
+            <!-- Middle row for the bio -->
+            <StackLayout row="1" verticalAlignment="middle" backgroundColor="#E0ACAC" padding="20">
+                <Label text="Garrett Smith is a Computer Science student at Pittsburg State University, hailing from Coldwater, Kansas. With a deep passion for technology and a goal to become a Penetration Tester, he's committed to securing digital systems. Beyond the digital realm, Garrett finds enjoyment in golf and bowling." textWrap="true" color="black" fontSize="20" />
+            </StackLayout>
+        </GridLayout>
+    </scrollView>
+</Page>

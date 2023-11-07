@@ -1,0 +1,13 @@
+<Page loaded="pageLoaded">
+    <StackLayout>
+        <Label text="My List"/>
+        <ListView id="myListView" itemTap="onItemTap">
+            <ListView.itemTemplate>
+                <StackLayout orientation="horizontal">
+                    <Image src="{{profilePicture}}" height="50" class="mr-5"/>
+                    <Label class="text-xl" text="{{ name }}" />
+                </StackLayout>
+            </ListView.itemTemplate>
+        </ListView>
+    </StackLayout>
+</Page>
