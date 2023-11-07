@@ -6,25 +6,11 @@ exports.pageLoaded = function(args) {
   const listView = page.getViewById("myListView");
 
   const itemList = new ObservableArray([
-    { name: 'Jim Bob', profilePicture: 'https://i.pravatar.cc/300', title: 'COO'},
-    { name: 'Suzy Test', profilePicture: 'https://i.pravatar.cc/300', title: 'CIO' },
-    { name: 'Charlie Brown', profilePicture: 'https://i.pravatar.cc/300', title: 'CEO' },
-    { name: 'Linda Smith', profilePicture: 'https://i.pravatar.cc/300', title: 'CFO' },
     { name: 'Jim Bob', profilePicture: 'https://i.pravatar.cc/300', title: 'COO' },
     { name: 'Suzy Test', profilePicture: 'https://i.pravatar.cc/300', title: 'CIO' },
-    { name: 'Charlie Brown', profilePicture: 'https://i.pravatar.cc/300', title: 'CEO' },
-    { name: 'Linda Smith', profilePicture: 'https://i.pravatar.cc/300', title: 'CFO' },
-    { name: 'Jim Bob', profilePicture: 'https://i.pravatar.cc/300', title: 'COO' },
-    { name: 'Suzy Test', profilePicture: 'https://i.pravatar.cc/300', title: 'CIO' },
-    { name: 'Charlie Brown', profilePicture: 'https://i.pravatar.cc/300', title: 'CEO' },
-    { name: 'Linda Smith', profilePicture: 'https://i.pravatar.cc/300', title: 'CFO' },
-    { name: 'Jim Bob', profilePicture: 'https://i.pravatar.cc/300', title: 'COO' },
-    { name: 'Suzy Test', profilePicture: 'https://i.pravatar.cc/300', title: 'CIO' },
-    { name: 'Charlie Brown', profilePicture: 'https://i.pravatar.cc/300', title: 'CEO' },
-    { name: 'Linda Smith', profilePicture: 'https://i.pravatar.cc/300', title: 'CFO' },
-
-    // ...
+    // Add more items as needed...
   ]);
+
   listView.items = itemList;
 };
 

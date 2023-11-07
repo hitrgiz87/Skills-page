@@ -1,13 +1,14 @@
 <Page loaded="pageLoaded">
-    <StackLayout>
-        <Label text="My List"/>
-        <ListView id="myListView" itemTap="onItemTap">
-            <ListView.itemTemplate>
-                <StackLayout orientation="horizontal">
-                    <Image src="{{profilePicture}}" height="50" class="mr-5"/>
-                    <Label class="text-xl" text="{{ name }}" />
-                </StackLayout>
-            </ListView.itemTemplate>
-        </ListView>
-    </StackLayout>
+  <StackLayout>
+    <Label text="My List" class="text-xl text-center mb-10" />
+    <ListView id="myListView" itemTap="onItemTap">
+      <ListView.itemTemplate>
+        <GridLayout rows="auto" columns="auto, *, auto">
+          <Image src="{{ profilePicture }}" height="50" class="mr-5" row="0" col="0" />
+          <Label class="text-xl" text="{{ name }}" row="0" col="1" />
+          <Label text="{{ title }}" row="0" col="2" />
+        </GridLayout>
+      </ListView.itemTemplate>
+    </ListView>
+  </StackLayout>
 </Page>
