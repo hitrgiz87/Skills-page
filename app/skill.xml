@@ -1,10 +1,11 @@
 <Page loaded="pageLoaded">
-  <StackLayout>
-    <Label Text= "My Skills"/>
-        <ListView id="myListView" itemTap="onItemTap">
-          <ListView.itemTemplate>
-            <Label id="listItemLabel" />
-          </ListView.itemTemplate>
-        </ListView>
+  <StackLayout class="p-10">
+    <Label text="My Skills" class="text-xl mb-4" />
+    <ListView id="myListView" itemTap="onItemTap">
+      <ListView.itemTemplate>
+        <Label class="mx-20 my-20 text-xl" id="listItemLabel" />
+      </ListView.itemTemplate>
+    </ListView>
   </StackLayout>
 </Page>
+
