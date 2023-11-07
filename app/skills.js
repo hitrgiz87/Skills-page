@@ -4,7 +4,7 @@ const frameModule = require("@nativescript/core/ui/frame");
 exports.pageLoaded = function(args) {
   const page = args.object;
   const listView = page.getViewById("myListView");
-
+console.log
   const itemList = new ObservableArray([
     { name: 'Jim Bob', profilePicture: 'https://i.pravatar.cc/300', title: 'COO' },
     { name: 'Suzy Test', profilePicture: 'https://i.pravatar.cc/300', title: 'CIO' },
