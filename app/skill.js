@@ -9,7 +9,7 @@ const itemList = new ObservableArray([
 // ...
 ]);
 listView.items = itemList;
-//listView.itemTemplate = `<Label text="{{ name }}" />`;
+listView.itemTemplate = `<Label text="{{ name }}" />`;
 }
 
 exports.onItemTap = function(args) {  
